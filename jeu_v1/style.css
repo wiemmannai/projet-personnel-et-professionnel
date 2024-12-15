@@ -1,0 +1,154 @@
+/*Reset*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100vh;
+	width: 100vw;
+	background-image: url("ser.jpg");
+	font-family: arial;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+
+.container {
+	height: 170px;
+	width: 170px;
+	margin: 0 5.9rem;
+	border: 1px solid #fff; 
+	transform: rotate(-30deg) skew(25deg);
+}
+
+.card {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	box-shadow: 1px 1px 5px #000;
+	transition: all 0.5s ease 0s;
+}
+
+h1 {
+	opacity: 0;
+	width: 200px;
+	color: rgb(40, 4, 82);
+	text-align: center;
+	transition: all 0.5s ease 0s;
+}
+
+.container-1 .card {
+	background-color: #d838d0;
+}
+
+.container-1 .card-8 {
+	background: url('jrp.png');
+	background-size: cover;
+	opacity: 0.8;
+}
+
+.container-2 .card {
+	background-color: #00b7c3;
+}
+
+.container-2 .card-8 {
+	background: url('risk.JPG');
+	background-size: cover;
+	opacity: 0.8;
+}
+
+
+.container-3 .card {
+	background-color: #ffb300;
+}
+
+.container-3 .card-8 {
+	background: url('tic.jpg');
+	background-size: cover;
+	opacity: 0.8;
+}
+
+.container:hover h1 {
+	transform: translate(-170px, 230px) rotate(40deg)  skew(-10deg);
+	border: 1px solid #fff;
+	opacity: 1;
+}
+
+
+.container:hover .card-8 {
+	background-color: #f4f4f4;
+	transform: translate(105px, -145px) rotate(41deg) skew(-5deg);
+	height: 210px;
+	width: 210px;
+	opacity: 1;
+	border-radius: 0.8rem;
+}
+
+.container:hover .card-7 {
+	transform: translate(75px, -75px);
+	opacity: 0.8;
+}
+
+.container:hover .card-6 {
+	transform: translate(65px, -65px);
+	opacity: 0.7;
+}
+
+.container:hover .card-5 {
+	transform: translate(55px, -55px);
+	opacity: 0.6;
+}
+
+.container:hover .card-4 {
+	transform: translate(45px, -45px);
+	opacity: 0.5;
+}
+
+.container:hover .card-3 {
+	transform: translate(35px, -35px);
+	opacity: 0.4;
+}
+
+.container:hover .card-2 {
+	transform: translate(25px, -25px);
+	opacity: 0.3;
+}
+
+.container:hover .card-1 {
+	transform: translate(15px, -15px);
+	opacity: 0.2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

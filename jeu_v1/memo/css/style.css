@@ -1,0 +1,111 @@
+#grid {
+    grid-template-columns: repeat(5, 120px);
+    display: inline-grid;
+}
+body {
+
+  
+    font-family: "Open Sans", sans-serif;
+    
+    font-size: 62.5%;
+    letter-spacing: 1.5px;
+    margin: 0;
+    text-align: center;
+   
+        display: grid;
+        place-items: center;
+        background: #43437e;  
+  }
+.card {
+    width: 75px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: grey 1px 1px 3px;
+    text-align: center;
+}
+.card-hidden {
+    background: #AAA;
+}
+.card-visible {
+    background:  crimson;
+}
+.card-paired {
+    background:crimson;
+}
+
+.card .material-icons {
+    padding-top: 40px;
+}
+
+h1 { 
+    font-size: 4.5em;
+    font-weight: 400;
+    color: white;
+   
+  }
+  
+  h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    color: rgb(240, 0, 112);
+  }
+  h3{
+     
+      font-size: 4em;
+      font-weight: 400;
+
+  }
+  h4{
+      color: white;
+    font-size: 2em;
+    font-weight: 700;
+
+  }
+  span{
+    background-color: crimson
+  }
+  .box{color: #fff;
+    background: #10101E;
+    font-family: "Segoe UI", sans-serif;
+    width: 700px;
+    padding: 15px 10px;
+    border: 3px solid #2E94E3;
+    border-radius: 5px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.1));
+    transition: 0.5s;
+    transition-property: background, box-shadow;
+    box-shadow: 0 0 30px #2E94E3;}
+    .form__button {
+        width: 35%;
+        padding: 1rem 2rem;
+        font-weight: bold;
+        font-size: 1.1rem;
+        color: #ffffff;
+        border: none;
+        border-radius: var(--border-radius);
+        outline: none;
+        cursor: pointer;
+        background: crimson;
+        
+    }
+    .form__button:hover{
+        background:crimson;
+        box-shadow: 0 0 30px #2E94E3;
+      }
+      .play{
+          display: none;
+      }
+      
+    
+      .Retour { 
+        text-align: center;
+        display: flex ;
+        margin: 15px 0;
+        font-family: "Permanent Marker" crimson;
+        background-color: rgb(0, 0, 0);
+      }
+    
+   
+      
